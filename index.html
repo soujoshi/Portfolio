@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK?Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#home">
+          <img src="img/devlogo.jpg" alt="" />
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Works</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Sourav Joshi</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        front-end & back-end dev
+      </p>
+      <img src="img/dev1.jpg" alt="" class="intro__img" />
+    </section>
+
+    <!-- My Services -->
+
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I Do ?</h2>
+
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development.</h3>
+          <p>
+            Web designers must always begin by considering a client’s website
+            objectives and then move on to an Information Architecture (IA) to
+            set a website’s information hierarchy and help guide the design
+            process. Next, web designers can start creating wireframes and
+            finally move to the design stage. Web designers may use several
+            basic design principles to achieve an aesthetically pleasing layout
+            which also offers excellent user experience.
+          </p>
+        </div>
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            Ecommerce, also known as electronic commerce or internet commerce,
+            refers to the buying and selling of goods or services using the
+            internet, and the transfer of money and data to execute these
+            transactions. Ecommerce is often used to refer to the sale of
+            physical products online, but it can also describe any kind of
+            commercial transaction that is facilitated through the internet.
+            Whereas e-business refers to all aspects of operating an online
+            business, ecommerce refers specifically to the transaction of goods
+            and services.
+          </p>
+        </div>
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            WordPress is the simplest, most popular way to create your own
+            website or blog. In fact, WordPress powers over 37.6% of all the
+            websites on the Internet. Yes – more than one in four websites that
+            you visit are likely powered by WordPress. On a slightly more
+            technical level, WordPress is an open-source content management
+            system licensed under GPLv2, which means that anyone can use or
+            modify the WordPress software for free. A content management system
+            is basically a tool that makes it easy to manage important aspects
+            of your website – like content – without needing to know anything
+            about programming.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & Developer based in North India
+      </p>
+
+      <div class="about-me__body">
+        <p>Hey! This is Sourav Joshi. I am a web Designer + Developer !</p>
+        <p>
+          Started Developing Websites 1 Year ago as a Freelancer & gained an
+          expertise in this field. Completed Various designing and development
+          certifications from platforms like Google, Coursera & Udemy ! Just
+          have a look at the complete website and join me if anyone wants to
+          work together !
+        </p>
+      </div>
+
+      <img src="img/dev1.jpg" alt="" class="about-me__img" />
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Works</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+
+        <a href="portfolio-item01.html" class="portfolio__item">
+          <img src="img/pic1.JPG" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+
+        <a href="portfolio-item02.html" class="portfolio__item">
+          <img src="img/jobmonster.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+
+        <a href="portfolio-item03.html" class="portfolio__item">
+          <img src="img/survey.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+
+        <a href="portfolio-item04.html" class="portfolio__item">
+          <img src="img/quiz1.JPG" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Thought Section -->
+
+    <section>
+      <div class="container">
+        <div class="text"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <h2 class="section__title section__title--about">
+        How do you take your coffee ?
+      </h2>
+      <br />
+      <a href="mailto:shantnu1211@gmail.com" class="footer__link">send mail</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/sharmashantnu/"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/SouravJ72046939"
+          >
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/soujoshi">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/sourav-joshi-610b21140/"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <p>
+        &copy; Created By
+        <a href="https://github.com/soujoshi" target="_blank">Sourav Joshi </a>
+      </p>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
